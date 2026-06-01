@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+
+# Obsidian — machine-specific state (we DO commit app/appearance/core-plugins/graph.json)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/hotkeys.json
+
+# Obsidian trash
+.trash/

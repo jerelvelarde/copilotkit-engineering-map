@@ -1,0 +1,413 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Package Dependency Graph\nAll 20 packages, edges = depends-on (internal @copilotkit/* only). Foundation at bottom.",
+      "x": -700,
+      "y": -150,
+      "width": 700,
+      "height": 80
+    },
+    {
+      "id": "legend",
+      "type": "text",
+      "text": "**Node color = layer:**  🟣 frontend · 🟢 runtime · 🟠 agent · 🟡 shared · 🟢 tooling(config)",
+      "x": -700,
+      "y": -56,
+      "width": 800,
+      "height": 32
+    },
+    {
+      "id": "react-ui",
+      "type": "file",
+      "file": "02-Packages/react-ui/react-ui.md",
+      "x": -700,
+      "y": 0,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "react-textarea",
+      "type": "file",
+      "file": "02-Packages/react-textarea/react-textarea.md",
+      "x": -430,
+      "y": 0,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "react-native",
+      "type": "file",
+      "file": "02-Packages/react-native/react-native.md",
+      "x": -160,
+      "y": 0,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "angular",
+      "type": "file",
+      "file": "02-Packages/angular/angular.md",
+      "x": 110,
+      "y": 0,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "vue",
+      "type": "file",
+      "file": "02-Packages/vue/vue.md",
+      "x": 380,
+      "y": 0,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "react-core",
+      "type": "file",
+      "file": "02-Packages/react-core/react-core.md",
+      "x": -560,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "a2ui-renderer",
+      "type": "file",
+      "file": "02-Packages/a2ui-renderer/a2ui-renderer.md",
+      "x": -290,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "web-inspector",
+      "type": "file",
+      "file": "02-Packages/web-inspector/web-inspector.md",
+      "x": -20,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "voice",
+      "type": "file",
+      "file": "02-Packages/voice/voice.md",
+      "x": 250,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "sqlite-runner",
+      "type": "file",
+      "file": "02-Packages/sqlite-runner/sqlite-runner.md",
+      "x": 520,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "agentcore-runner",
+      "type": "file",
+      "file": "02-Packages/agentcore-runner/agentcore-runner.md",
+      "x": 790,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "sdk-js",
+      "type": "file",
+      "file": "02-Packages/sdk-js/sdk-js.md",
+      "x": 1060,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "demo-agents",
+      "type": "file",
+      "file": "02-Packages/demo-agents/demo-agents.md",
+      "x": 1330,
+      "y": 200,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "core",
+      "type": "file",
+      "file": "02-Packages/core/core.md",
+      "x": -430,
+      "y": 420,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "runtime-client-gql",
+      "type": "file",
+      "file": "02-Packages/runtime-client-gql/runtime-client-gql.md",
+      "x": -160,
+      "y": 420,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "runtime",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime.md",
+      "x": 520,
+      "y": 420,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "shared",
+      "type": "file",
+      "file": "02-Packages/shared/shared.md",
+      "x": -160,
+      "y": 640,
+      "width": 240,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "typescript-config",
+      "type": "file",
+      "file": "02-Packages/config-packages/typescript-config.md",
+      "x": 1060,
+      "y": 420,
+      "width": 240,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "tsconfig",
+      "type": "file",
+      "file": "02-Packages/config-packages/tsconfig (legacy presets).md",
+      "x": 1060,
+      "y": 510,
+      "width": 240,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "tailwind-config",
+      "type": "file",
+      "file": "02-Packages/config-packages/tailwind-config.md",
+      "x": 1330,
+      "y": 420,
+      "width": 240,
+      "height": 60,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "d0",
+      "fromNode": "core",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d1",
+      "fromNode": "runtime-client-gql",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d2",
+      "fromNode": "runtime",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d3",
+      "fromNode": "sdk-js",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d4",
+      "fromNode": "react-core",
+      "toNode": "core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d5",
+      "fromNode": "react-core",
+      "toNode": "runtime-client-gql",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d6",
+      "fromNode": "react-core",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d7",
+      "fromNode": "react-core",
+      "toNode": "a2ui-renderer",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d8",
+      "fromNode": "react-core",
+      "toNode": "web-inspector",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d9",
+      "fromNode": "react-ui",
+      "toNode": "react-core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d10",
+      "fromNode": "react-ui",
+      "toNode": "runtime-client-gql",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d11",
+      "fromNode": "react-ui",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d12",
+      "fromNode": "react-textarea",
+      "toNode": "react-core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d13",
+      "fromNode": "react-textarea",
+      "toNode": "runtime-client-gql",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d14",
+      "fromNode": "react-textarea",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d15",
+      "fromNode": "react-native",
+      "toNode": "core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d16",
+      "fromNode": "react-native",
+      "toNode": "react-core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d17",
+      "fromNode": "react-native",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d18",
+      "fromNode": "angular",
+      "toNode": "core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d19",
+      "fromNode": "angular",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d20",
+      "fromNode": "vue",
+      "toNode": "core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d21",
+      "fromNode": "vue",
+      "toNode": "shared",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d22",
+      "fromNode": "vue",
+      "toNode": "web-inspector",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d23",
+      "fromNode": "web-inspector",
+      "toNode": "core",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d24",
+      "fromNode": "sqlite-runner",
+      "toNode": "runtime",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d25",
+      "fromNode": "agentcore-runner",
+      "toNode": "runtime",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "d26",
+      "fromNode": "voice",
+      "toNode": "runtime",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ]
+}

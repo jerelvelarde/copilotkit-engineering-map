@@ -1,0 +1,373 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Runtime Internals\n@copilotkit/runtime is dual-architecture: modern V2 (fetch) + legacy V1 (GraphQL), plus the BuiltInAgent and 9 service adapters.",
+      "x": -40,
+      "y": -150,
+      "width": 760,
+      "height": 90
+    },
+    {
+      "id": "gV2",
+      "type": "group",
+      "label": "V2 — modern fetch runtime (src/v2/)",
+      "x": -40,
+      "y": 0,
+      "width": 1100,
+      "height": 480,
+      "color": "5"
+    },
+    {
+      "id": "v2_0",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - createCopilotRuntimeHandler.md",
+      "x": -20,
+      "y": 50,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_1",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - CopilotRuntime (v2).md",
+      "x": 250,
+      "y": 50,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_2",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Routing & CORS.md",
+      "x": 520,
+      "y": 50,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_3",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Middleware (v2).md",
+      "x": 790,
+      "y": 50,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_4",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - AgentRunner (base).md",
+      "x": -20,
+      "y": 150,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_5",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - InMemoryAgentRunner.md",
+      "x": 250,
+      "y": 150,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_6",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Endpoints (Express_Hono_Node).md",
+      "x": 520,
+      "y": 150,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_7",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Handlers (run_connect_stop).md",
+      "x": 790,
+      "y": 150,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_8",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Thread Handlers.md",
+      "x": -20,
+      "y": 250,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_9",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Transcribe Handler.md",
+      "x": 250,
+      "y": 250,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_10",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Intelligence Platform Client.md",
+      "x": 520,
+      "y": 250,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_11",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - SSE Streaming.md",
+      "x": 790,
+      "y": 250,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "v2_12",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Hooks & Debug Event Bus.md",
+      "x": -20,
+      "y": 350,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "gV1",
+      "type": "group",
+      "label": "V1 — legacy GraphQL",
+      "x": -40,
+      "y": 520,
+      "width": 540,
+      "height": 260,
+      "color": "1"
+    },
+    {
+      "id": "v1_0",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - GraphQL Layer (v1).md",
+      "x": -20,
+      "y": 570,
+      "width": 240,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "v1_1",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - LangGraphAgent (v1).md",
+      "x": 240,
+      "y": 570,
+      "width": 240,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "v1_2",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Framework Integrations (v1).md",
+      "x": -20,
+      "y": 670,
+      "width": 240,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "v1_3",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Logging (Pino).md",
+      "x": 240,
+      "y": 670,
+      "width": 240,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "gAgent",
+      "type": "group",
+      "label": "BuiltInAgent",
+      "x": 540,
+      "y": 520,
+      "width": 520,
+      "height": 160,
+      "color": "2"
+    },
+    {
+      "id": "ag0",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - BuiltInAgent.md",
+      "x": 560,
+      "y": 570,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ag1",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - AI SDK Converters.md",
+      "x": 810,
+      "y": 570,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "gAd",
+      "type": "group",
+      "label": "Service Adapters (V1 LLM providers)",
+      "x": 1120,
+      "y": 0,
+      "width": 840,
+      "height": 780,
+      "color": "2"
+    },
+    {
+      "id": "ad_0",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Service Adapter (interface).md",
+      "x": 1140,
+      "y": 50,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_1",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - OpenAI Adapter.md",
+      "x": 1410,
+      "y": 50,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_2",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - OpenAI Assistant Adapter.md",
+      "x": 1680,
+      "y": 50,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_3",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Anthropic Adapter.md",
+      "x": 1140,
+      "y": 150,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_4",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Google GenAI Adapter.md",
+      "x": 1410,
+      "y": 150,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_5",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Groq Adapter.md",
+      "x": 1680,
+      "y": 150,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_6",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - LangChain Adapter.md",
+      "x": 1140,
+      "y": 250,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_7",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Bedrock Adapter.md",
+      "x": 1410,
+      "y": 250,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_8",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Unify Adapter.md",
+      "x": 1680,
+      "y": 250,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "ad_9",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime - Ollama Adapter (experimental).md",
+      "x": 1140,
+      "y": 350,
+      "width": 240,
+      "height": 60,
+      "color": "2"
+    }
+  ],
+  "edges": [
+    {
+      "id": "r1",
+      "fromNode": "v2_0",
+      "toNode": "v2_1",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "r2",
+      "fromNode": "v2_1",
+      "toNode": "v2_4",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "r3",
+      "fromNode": "v2_4",
+      "toNode": "v2_5",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "r4",
+      "fromNode": "ag0",
+      "toNode": "ag1",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}

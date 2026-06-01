@@ -1,0 +1,358 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# Concept Map\nCross-cutting concepts (left) and the packages that implement them (right).",
+      "x": -760,
+      "y": -230,
+      "width": 700,
+      "height": 70
+    },
+    {
+      "id": "gConcepts",
+      "type": "group",
+      "label": "Concepts (01-Architecture)",
+      "x": -800,
+      "y": -130,
+      "width": 320,
+      "height": 1240,
+      "color": "6"
+    },
+    {
+      "id": "gPkgs",
+      "type": "group",
+      "label": "Implementing packages",
+      "x": 160,
+      "y": -130,
+      "width": 320,
+      "height": 1010,
+      "color": "5"
+    },
+    {
+      "id": "c_0",
+      "type": "file",
+      "file": "01-Architecture/AG-UI Protocol.md",
+      "x": -760,
+      "y": 0,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_1",
+      "type": "file",
+      "file": "01-Architecture/AgentRunner.md",
+      "x": -760,
+      "y": 86,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_2",
+      "type": "file",
+      "file": "01-Architecture/Tools (Frontend & Backend).md",
+      "x": -760,
+      "y": 172,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_3",
+      "type": "file",
+      "file": "01-Architecture/Context.md",
+      "x": -760,
+      "y": 258,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_4",
+      "type": "file",
+      "file": "01-Architecture/Multi-Agent.md",
+      "x": -760,
+      "y": 344,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_5",
+      "type": "file",
+      "file": "01-Architecture/Suggestions.md",
+      "x": -760,
+      "y": 430,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_6",
+      "type": "file",
+      "file": "01-Architecture/Threads.md",
+      "x": -760,
+      "y": 516,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_7",
+      "type": "file",
+      "file": "01-Architecture/Middleware.md",
+      "x": -760,
+      "y": 602,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_8",
+      "type": "file",
+      "file": "01-Architecture/A2UI (Generative UI).md",
+      "x": -760,
+      "y": 688,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_9",
+      "type": "file",
+      "file": "01-Architecture/Intelligence Platform vs SSE.md",
+      "x": -760,
+      "y": 774,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_10",
+      "type": "file",
+      "file": "01-Architecture/ProxiedAgent.md",
+      "x": -760,
+      "y": 860,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_11",
+      "type": "file",
+      "file": "01-Architecture/Telemetry & Licensing.md",
+      "x": -760,
+      "y": 946,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "c_12",
+      "type": "file",
+      "file": "01-Architecture/Debug Mode.md",
+      "x": -760,
+      "y": 1032,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "p_core",
+      "type": "file",
+      "file": "02-Packages/core/core.md",
+      "x": 200,
+      "y": 60,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "p_runtime",
+      "type": "file",
+      "file": "02-Packages/runtime/runtime.md",
+      "x": 200,
+      "y": 210,
+      "width": 240,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "p_reactCore",
+      "type": "file",
+      "file": "02-Packages/react-core/react-core.md",
+      "x": 200,
+      "y": 360,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "p_shared",
+      "type": "file",
+      "file": "02-Packages/shared/shared.md",
+      "x": 200,
+      "y": 510,
+      "width": 240,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "p_a2ui",
+      "type": "file",
+      "file": "02-Packages/a2ui-renderer/a2ui-renderer.md",
+      "x": 200,
+      "y": 660,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "p_rcgql",
+      "type": "file",
+      "file": "02-Packages/runtime-client-gql/runtime-client-gql.md",
+      "x": 200,
+      "y": 810,
+      "width": 240,
+      "height": 60,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "m0_runtime",
+      "fromNode": "c_0",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m0_core",
+      "fromNode": "c_0",
+      "toNode": "p_core",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m1_runtime",
+      "fromNode": "c_1",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m2_core",
+      "fromNode": "c_2",
+      "toNode": "p_core",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m2_runtime",
+      "fromNode": "c_2",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m3_core",
+      "fromNode": "c_3",
+      "toNode": "p_core",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m4_runtime",
+      "fromNode": "c_4",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m5_core",
+      "fromNode": "c_5",
+      "toNode": "p_core",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m6_core",
+      "fromNode": "c_6",
+      "toNode": "p_core",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m6_runtime",
+      "fromNode": "c_6",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m7_runtime",
+      "fromNode": "c_7",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m8_a2ui",
+      "fromNode": "c_8",
+      "toNode": "p_a2ui",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m8_runtime",
+      "fromNode": "c_8",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m9_core",
+      "fromNode": "c_9",
+      "toNode": "p_core",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m9_runtime",
+      "fromNode": "c_9",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m10_core",
+      "fromNode": "c_10",
+      "toNode": "p_core",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m11_shared",
+      "fromNode": "c_11",
+      "toNode": "p_shared",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m11_runtime",
+      "fromNode": "c_11",
+      "toNode": "p_runtime",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "m12_shared",
+      "fromNode": "c_12",
+      "toNode": "p_shared",
+      "fromSide": "right",
+      "toSide": "left"
+    }
+  ]
+}
