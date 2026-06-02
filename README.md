@@ -2,6 +2,8 @@
 
 An [Obsidian](https://obsidian.md) vault that maps the **[CopilotKit](https://github.com/CopilotKit/CopilotKit)** monorepo at file/symbol depth — **345 interlinked notes**, **4 Canvas boards**, and a layer-colored graph view. Every note is derived by reading the actual source (not the prose docs), so it works as both an onboarding atlas and an architecture reference.
 
+<img width="1665" height="1068" alt="image" src="https://github.com/user-attachments/assets/830eeacc-e38f-4f59-927d-250fb0873330" />
+
 > **Snapshot** of CopilotKit `main` @ `6e45f55a` (2026-06-01). This is a point-in-time read; upstream moves fast — see [Regenerating](#regenerating).
 
 ## Use it
