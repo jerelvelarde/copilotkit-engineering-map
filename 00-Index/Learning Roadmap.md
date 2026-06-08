@@ -129,7 +129,7 @@ Also learn the **vault mechanics**: open the **Graph view** (color-grouped by `#
 
 ---
 
-## Phase 7 — Mastery: trace & extend
+## Phase 7 — Mastery — trace & extend
 
 **Goal:** Prove fluency by following real flows end-to-end and reasoning about changes.
 
