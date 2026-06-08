@@ -30,6 +30,7 @@ flowchart LR
 
 ## Areas
 
+- [[Learning Roadmap]] — a staged path from zero to fluent in the codebase, with checkpoints and exercises. **New here? Start with this.**
 - [[Concepts MOC]] — cross-cutting architecture concepts (the layers, AG-UI, lifecycle, tools, context, multi-agent, middleware, telemetry). **Start here.**
 - [[Apps MOC]] — the `showcase/` platform: per-framework demo apps, shell apps, harness, scripts, and integration backends.
 - [[Examples MOC]] — the example projects under `examples/` (canvas, integrations, showcases, v1/v2 starters, e2e).
